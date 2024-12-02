@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "1": "deno --allow-read 1/output.ts"
+  },
+  "imports": {
+    "effection": "npm:effection@3.0.3"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["prefer-const", "require-yield"]
+    }
+  }
+}
