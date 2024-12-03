@@ -10,4 +10,6 @@ const text = Deno.readTextFileSync(filename);
 // 8 6 4 4 1
 // 1 3 6 7 9`
 
-export const reports: number[][] = text.trim().split("\n").map(line => line.trim().split(/\s+/).map(Number));
+export const reports: number[][] = text.trim().split("\n").map((line) =>
+  line.trim().split(/\s+/).map(Number)
+);

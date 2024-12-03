@@ -4,7 +4,8 @@ Install Deno - https://deno.com
 
 ### Usage
 
-To find the solutions for a give day, use `deno task DAY`. For example to find the solution for day 1:
+To find the solutions for a give day, use `deno task DAY`. For example to find
+the solution for day 1:
 
 ```
 % deno task 1

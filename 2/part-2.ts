@@ -10,9 +10,9 @@ function dampener(pred: ReportP): ReportP {
     for (let i = report.length; i >= 0; i--) {
       let dampened = report.toSpliced(i, 1);
       if (pred(dampened)) {
-	return true;
+        return true;
       }
     }
     return false;
-  }
+  };
 }
