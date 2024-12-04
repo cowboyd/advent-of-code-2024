@@ -5,9 +5,6 @@
     "3": "deno run -A 3/output.ts",
     "4": "deno run -A 4/output.ts"
   },
-  "imports": {
-    "effection": "npm:effection@3.0.3"
-  },
   "lint": {
     "rules": {
       "exclude": ["prefer-const", "require-yield"]
