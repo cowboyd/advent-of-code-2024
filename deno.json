@@ -3,7 +3,8 @@
     "1": "deno run --allow-read 1/output.ts",
     "2": "deno run -A 2/output.ts",
     "3": "deno run -A 3/output.ts",
-    "4": "deno run -A 4/output.ts"
+    "4": "deno run -A 4/output.ts",
+    "5": "deno run -A 5/output.ts"
   },
   "lint": {
     "rules": {
