@@ -4,7 +4,8 @@
     "2": "deno run -A 2/output.ts",
     "3": "deno run -A 3/output.ts",
     "4": "deno run -A 4/output.ts",
-    "5": "deno run -A 5/output.ts"
+    "5": "deno run -A 5/output.ts",
+    "6": "deno run -A 6/output.ts"
   },
   "lint": {
     "rules": {
